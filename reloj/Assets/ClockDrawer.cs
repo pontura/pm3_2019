@@ -14,8 +14,10 @@ public class ClockDrawer : MonoBehaviour
 	{		
 		for(int i=0; i<=60; i++)
 		{
-			GameObject createdPrefab = Instantiate(prefab);
+			GameObject createdPrefab = Instantiate(prefab);			
+			createdPrefab.transform.SetParent(transform);
 			createdPrefab.transform.localEulerAngles = new Vector3(0,0,i*6); 
+			createdPrefab.transform.localPosition = Vector3.zero; 
 		}
 		
 	}
