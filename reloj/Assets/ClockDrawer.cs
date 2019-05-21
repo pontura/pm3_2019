@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ClockDrawer : MonoBehaviour
 {
-	public GameObject prefab;
+	public Item item;
+	public float cant;
+	public List<Item> allItems;
+	public Clock clock;
 
     	void Start()
     	{
@@ -12,13 +15,30 @@ public class ClockDrawer : MonoBehaviour
    	}
 	void Draw()
 	{		
-		for(int i=0; i<=60; i++)
+		for(int i=0; i<=cant; i++)
 		{
-			GameObject createdPrefab = Instantiate(prefab);			
+			Item createdPrefab = Instantiate(item);			
 			createdPrefab.transform.SetParent(transform);
-			createdPrefab.transform.localEulerAngles = new Vector3(0,0,i*6); 
+			createdPrefab.transform.localEulerAngles = new Vector3(0,0,i*(360/cant)); 
 			createdPrefab.transform.localPosition = Vector3.zero; 
+			allItems.Add(createdPrefab);
 		}
+		
+	}
+	void Update()
+	{
+		for(int a = 0; a<allItems.Count; a++)
+		{
+			Item item = allItems[a];
+			if(a<=clock.seg)
+			{
+				item.Init();
+			} else
+			{
+				item.SetInactive();
+			}
+		}
+
 		
 	}
 
