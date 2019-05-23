@@ -21,16 +21,16 @@ public class ClockDrawer : MonoBehaviour
 		for(int i=0; i<=cant; i++)
 		{
             Item _item;
-            id++;
-            if (id == 10)
+           
+            if (id %3 == 0)
             {
                 _item = Instantiate(itemEspecial);
-                id = 0;
             }
             else
             {
                 _item = Instantiate(item);               
             }
+            id++;
             _item.transform.SetParent(transform);
             _item.transform.localEulerAngles = new Vector3(0, 0, i * (360 / cant));
             _item.transform.localPosition = Vector3.zero;
