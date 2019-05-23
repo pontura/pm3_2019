@@ -5,41 +5,53 @@ using UnityEngine;
 public class ClockDrawer : MonoBehaviour
 {
 	public Item item;
-	public float cant;
+    public Item itemEspecial;
+
+    public float cant;
 	public List<Item> allItems;
 	public Clock clock;
 
-    	void Start()
-    	{
-        	Draw();
+    void Start()
+    {
+        Draw();
    	}
 	void Draw()
-	{		
+	{
+        int id = 0;
 		for(int i=0; i<=cant; i++)
 		{
-			Item createdPrefab = Instantiate(item);			
-			createdPrefab.transform.SetParent(transform);
-			createdPrefab.transform.localEulerAngles = new Vector3(0,0,i*(360/cant)); 
-			createdPrefab.transform.localPosition = Vector3.zero; 
-			allItems.Add(createdPrefab);
-		}
-		
-	}
-	void Update()
-	{
-		for(int a = 0; a<allItems.Count; a++)
-		{
-			Item item = allItems[a];
-			if(a<=clock.seg)
-			{
-				item.Init();
-			} else
-			{
-				item.SetInactive();
-			}
-		}
+            Item _item;
+            id++;
+            if (id == 10)
+            {
+                _item = Instantiate(itemEspecial);
+                id = 0;
+            }
+            else
+            {
+                _item = Instantiate(item);               
+            }
+            _item.transform.SetParent(transform);
+            _item.transform.localEulerAngles = new Vector3(0, 0, i * (360 / cant));
+            _item.transform.localPosition = Vector3.zero;
+            allItems.Add(_item);
 
+        }
 		
 	}
+	//void Update()
+	//{
+	//	for(int a = 0; a<allItems.Count; a++)
+	//	{
+	//		Item item = allItems[a];
+	//		if(a<=clock.seg)
+	//		{
+	//			item.Init();
+	//		} else
+	//		{
+	//			item.SetInactive();
+	//		}
+	//	}
+	//}
 
 }

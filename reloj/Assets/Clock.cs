@@ -19,6 +19,7 @@ public class Clock : MonoBehaviour
 
     public void Init(bool _InitLocalTime = true)
     {
+        CancelInvoke();
         Tick();
         if (_InitLocalTime)
             InitLocalTime();
