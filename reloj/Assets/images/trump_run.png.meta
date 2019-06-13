@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: 42f0bf8d7a4bf774f9aa0eedf5647116
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1093262051405740014
+    second: trump_run_0
+  - first:
+      213: 2623858079486532457
+    second: trump_run_1
+  - first:
+      213: -336140233619066941
+    second: trump_run_2
+  - first:
+      213: -1554559446946309425
+    second: trump_run_3
+  - first:
+      213: 1273539034919549681
+    second: trump_run_4
+  - first:
+      213: 8221942127425415616
+    second: trump_run_5
+  - first:
+      213: 9085239600469196641
+    second: trump_run_6
+  - first:
+      213: 3215872749239213665
+    second: trump_run_7
+  - first:
+      213: -1938287792670054539
+    second: trump_run_8
+  - first:
+      213: 8859161030616330015
+    second: trump_run_9
+  - first:
+      213: -4279779318918107743
+    second: trump_run_10
+  - first:
+      213: -1231783640294336413
+    second: trump_run_11
+  - first:
+      213: -8499768146337263767
+    second: trump_run_12
+  - first:
+      213: 5799767504363725667
+    second: trump_run_13
+  - first:
+      213: 2636449658071406852
+    second: trump_run_14
+  - first:
+      213: -2192847580953220613
+    second: trump_run_15
+  - first:
+      213: 4891522017837966075
+    second: trump_run_16
+  - first:
+      213: 2152648858848493768
+    second: trump_run_17
+  - first:
+      213: 7911053046440624869
+    second: trump_run_18
+  - first:
+      213: -9193308136181934167
+    second: trump_run_19
+  - first:
+      213: 2152357593393619443
+    second: trump_run_20
+  - first:
+      213: -7602511535967333953
+    second: trump_run_21
+  - first:
+      213: 8160998383514415285
+    second: trump_run_22
+  - first:
+      213: 3499478256377956956
+    second: trump_run_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trump_run_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 318
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdba2efd89614d74d9c25ff2588fb67a
+      internalID: 1093262051405740014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 313
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9273bfd7414be4d85fdf267e12497d
+      internalID: 2623858079486532457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 313
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff8766e271919f4bacdceb08ab79945
+      internalID: -336140233619066941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 317
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ac256a997f1954eb2835db8bb52a48
+      internalID: -1554559446946309425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 311
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b00ed497b6e644e9ef399efae883c2
+      internalID: 1273539034919549681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 315
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d68f01507be4c14aa9e0bf8b16aded4
+      internalID: 8221942127425415616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 218
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce396d589932f04468e43891565b6b41
+      internalID: 9085239600469196641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 210
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8a1cda143abd542b5eff694d06f7e0
+      internalID: 3215872749239213665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 212
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957722973e85f264da2cceaed4377f4b
+      internalID: -1938287792670054539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 218
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9dcc152be86594bbdef02bf5415c02
+      internalID: 8859161030616330015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 213
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d676d3c692a813489143b38bfddc3c0
+      internalID: -4279779318918107743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_11
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 214
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7176fc525f65bd4a8455442a0190c52
+      internalID: -1231783640294336413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 116
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3b272c5b702324ab4d4b218687e650
+      internalID: -8499768146337263767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 110
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9c8e604a6d55c4393a86c5e8502a84
+      internalID: 5799767504363725667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_14
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 110
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8203d9a0752f74c9d88831d8cb0702
+      internalID: 2636449658071406852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 115
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e320147f891d54f92ae8c807175f16
+      internalID: -2192847580953220613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_16
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 111
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ca56807c566645865c84d24714aa5
+      internalID: 4891522017837966075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 111
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ed5c9b0121089458bd4e8eb4bd0747
+      internalID: 2152648858848493768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 19
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc5f9f18a35434469d9a1b255393e59
+      internalID: 7911053046440624869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 13
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1087290ddbb7a1438b6771402c26c87
+      internalID: -9193308136181934167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 14
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd0190b8bf87e94c9816f391e97392a
+      internalID: 2152357593393619443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 18
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ac1dc17ecd8541949524811b16092
+      internalID: -7602511535967333953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_22
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 11
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dbb39bad4da1a439b799977fa61488
+      internalID: 8160998383514415285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trump_run_23
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 12
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0263a20ec66fc4c82c6125964da445
+      internalID: 3499478256377956956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 267b0fb7dc72a78429eb683e4e6cb153
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

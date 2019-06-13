@@ -71,7 +71,14 @@ public class Clock : MonoBehaviour
         }
 
     }
-
+    public void ChangeHour(float value)
+    {
+        if (value < 0)
+            value = 0;
+        else if (value > 23)
+            value = 23;
+        hr = (int)value;
+    }
    public void ChangeSpeed(float value)
     {
         if (value < 0)

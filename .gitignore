@@ -539,3 +539,6 @@ reloj/.vs/reloj/v15/Server/sqlite3/storage.ide-wal
 reloj/.vs/reloj/v15/Server/sqlite3/storage.ide-shm
 reloj/.vs/reloj/v15/Server/sqlite3/storage.ide
 reloj/.vs/reloj/v15/Server/sqlite3/db.lock
+reloj/ProjectSettings/XRSettings.asset
+reloj/ProjectSettings/ProjectVersion.txt
+reloj/Logs/Packages-Update.log
