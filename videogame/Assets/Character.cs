@@ -28,7 +28,6 @@ public class Character : MonoBehaviour
         {
             Rotate(-rotationSpeed);
         }
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
@@ -45,5 +44,14 @@ public class Character : MonoBehaviour
     void Rotate(float value)
     {
         transform.Rotate(Vector3.up * Time.deltaTime * value);
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        GameObject other = collision.transform.gameObject;
+
+        Grabbable grabbable = collision.transform.gameObject.GetComponent<Grabbable>();
+        if (grabbable != null)
+            grabbable.OnGrab();
+       
     }
 }
