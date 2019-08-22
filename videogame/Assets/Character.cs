@@ -7,12 +7,9 @@ public class Character : MonoBehaviour
     public float jumpForce = 500;
     public float speed = 10;
     public float rotationSpeed = 10;
-    Vector3 originalPosition;
-    Vector3 originaRotation;
+
     void Start()
     {
-        originalPosition = transform.position;
-        originaRotation = transform.localEulerAngles;
     }
     void Update()
     {
@@ -48,13 +45,5 @@ public class Character : MonoBehaviour
     void Rotate(float value)
     {
         transform.Rotate(Vector3.up * Time.deltaTime * value);
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.name == "Bomb")
-        {
-            transform.position = originalPosition;
-            transform.localEulerAngles = originaRotation;
-        }
     }
 }
