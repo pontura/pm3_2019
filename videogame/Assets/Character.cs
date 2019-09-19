@@ -9,10 +9,6 @@ public class Character : MonoBehaviour
     public float rotationSpeed = 10;
     public CharacterView characterView;
 
-    void Start()
-    {
-
-    }
     void Update()
     {
         if(Input.GetKey(KeyCode.UpArrow))

@@ -6,15 +6,15 @@ public class LevelsManager : MonoBehaviour
 {
     public RoomsManager roomsManager;
     
-    private void Start()
+    public void Init()
     {
         LevelData levelData = new LevelData();
-        levelData.roomID = 2;
+        levelData.roomID = 1;
         levelData.roomdata = new RoomData();
-        levelData.roomdata.door1 = false;
+        levelData.roomdata.door1 = true;
         levelData.roomdata.door2 = false;
         levelData.roomdata.door3 = true;
-        levelData.roomdata.door4 = true;
+        levelData.roomdata.door4 = false;
         roomsManager.AddRoom(levelData);
     }
 
