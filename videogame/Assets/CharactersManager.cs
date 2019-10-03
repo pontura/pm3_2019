@@ -10,6 +10,6 @@ public class CharactersManager : MonoBehaviour
     public void Init()
     {
         character = Instantiate(character_to_instantiate);
-        character.transform.localPosition = Vector3.zero;
+        character.OnPositionate(new Vector3(-4,0,0));
     }
 }

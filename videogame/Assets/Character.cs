@@ -9,9 +9,21 @@ public class Character : MonoBehaviour
     public float rotationSpeed = 10;
     public CharacterView characterView;
 
+    public GameObject stateWalk;
+    public GameObject stateIdle;
+
+    public bool isMoveing = false;
+    public Vector3 originalPosition;
+
+    public void OnPositionate(Vector3 originalPosition)
+    {
+        this.originalPosition = originalPosition;
+        transform.localPosition = originalPosition;
+    }
     void Update()
     {
-        if(Input.GetKey(KeyCode.UpArrow))
+        isMoveing = false;
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             Move(Vector3.forward, speed);
         } else if (Input.GetKey(KeyCode.DownArrow))
@@ -32,9 +44,11 @@ public class Character : MonoBehaviour
         {
             Jump();
         }
+        CheckAnimation();
     }
     void Move(Vector3 v, float value)
     {
+        isMoveing = true;
         transform.Translate(v * Time.deltaTime * value);
     }
     void Jump()
@@ -50,9 +64,33 @@ public class Character : MonoBehaviour
     {
         GameObject other = collision.transform.gameObject;
 
-        Grabbable grabbable = collision.transform.gameObject.GetComponent<Grabbable>();
+        Enemy enemy = other.GetComponent<Enemy>();
+
+        if (enemy != null)
+        {
+            //choque con un enemigo
+            print("choco con enemigo");
+            OnPositionate(originalPosition);
+            return;
+        }
+
+        Grabbable grabbable = other.GetComponent<Grabbable>();
+
         if (grabbable != null)
             grabbable.OnGrab();
        
+    }
+    void CheckAnimation()
+    {
+        if(isMoveing == true)
+        {
+            stateIdle.SetActive(false);
+            stateWalk.SetActive(true);
+        }
+        else
+        {
+            stateIdle.SetActive(true);
+            stateWalk.SetActive(false);
+        }
     }
 }
