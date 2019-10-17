@@ -12,6 +12,7 @@ public class Door : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        print(collision.gameObject.name + " is on: " + isOn);
+        //print(collision.gameObject.name + " is on: " + isOn);
+        Events.OnDoorActive();       
     }
 }

@@ -6,11 +6,14 @@ public class RoomsManager : MonoBehaviour
 {
     public Room room1;
     public Room room2;
+    private Room room;
 
-    //va a dibujar un room en relacion a lo que le pida levelsManager:
+    public void RemoveRoom()
+    {
+        Destroy(room.gameObject);
+    }
     public void AddRoom(LevelData levelData)
     {
-        Room room;
         switch (levelData.roomID)
         {
             case 1:
@@ -21,5 +24,6 @@ public class RoomsManager : MonoBehaviour
                 break;
         }
         room.Init(levelData.roomdata);
+        room.transform.SetParent(transform);
     }
 }
